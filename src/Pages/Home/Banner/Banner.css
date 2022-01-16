@@ -1,0 +1,15 @@
+.div-position {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-position {
+    position: absolute;
+    font-size: 50px;
+}
+
+.div-position img {
+    width: 100%;
+}

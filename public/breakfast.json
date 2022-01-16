@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Balen and Cream Cheese",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 11.45,
+        "img": "https://i.ibb.co/D4vTvVQ/breakfast1.png"
+    },
+    {
+        "id": 2,
+        "title": "Breakfast Swandwich",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 15.99,
+        "img": "https://i.ibb.co/64h7vdk/breakfast2.png"
+    },
+    {
+        "id": 3,
+        "title": "Baked Chicken",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 13.33,
+        "img": "https://i.ibb.co/98X7Pxp/breakfast3.png"
+    },
+    {
+        "id": 4,
+        "title": "Eggs Benedict",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 19.89,
+        "img": "https://i.ibb.co/XkTDJVz/breakfast4.png"
+    },
+    {
+        "id": 5,
+        "title": "Toast Croissant Fried Egg",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 21.48,
+        "img": "https://i.ibb.co/cQfCZjS/breakfast5.png"
+    },
+    {
+        "id": 6,
+        "title": "Full Breakfast Fried Egg Toast Brunch",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 39.99,
+        "img": "https://i.ibb.co/ZLcx7SJ/breakfast6.png"
+    }
+]

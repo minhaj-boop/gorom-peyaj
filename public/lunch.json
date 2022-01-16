@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Healthy Meal Plan",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 21.00,
+        "img": "https://i.ibb.co/H7c1KcB/lunch1.png"
+    },
+    {
+        "id": 2,
+        "title": "Fried Chicken Bento",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 19.99,
+        "img": "https://i.ibb.co/0XFKsDk/lunch2.png"
+    },
+    {
+        "id": 3,
+        "title": "Terragon Rubbed Salmon",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 23.50,
+        "img": "https://i.ibb.co/mvWFgrh/lunch3.png"
+    },
+    {
+        "id": 4,
+        "title": "Indian Lunch",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 13.58,
+        "img": "https://i.ibb.co/fvRk3DC/lunch4.png"
+    },
+    {
+        "id": 5,
+        "title": "Beef Steak",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 25.99,
+        "img": "https://i.ibb.co/C1QF92h/lunch5.png"
+    },
+    {
+        "id": 6,
+        "title": "Honey Soy Glazed Salmon with Peepers",
+        "highlights": "You do really care? check description",
+        "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
+        "price": 59.99,
+        "img": "https://i.ibb.co/QntQNfL/lunch6.png"
+    }
+]
