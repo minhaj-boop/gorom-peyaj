@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../../images/logo2.png';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -9,13 +9,20 @@ const Header = () => {
     return (
         <>
             <Navbar sticky="top" variant="light" collapseOnSelect expand="lg">
-
                 <Navbar.Brand className="mar-10" href="#home"><img
                     src={logo}
                     width="160"
                     className="d-inline-block align-top"
                     alt=""
                 /></Navbar.Brand>
+                {/* <Form className="d-felx">
+                    <FormControl
+                        type="search"
+                        placeholder="Search"
+                        className="me-2 rounded-pill"
+                        aria-label="Search"
+                    />
+                </Form> */}
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end margin-10">
                     <Nav.Link className="color" as={Link} to="/home#home"><ShoppingCartIcon /></Nav.Link>
@@ -29,7 +36,6 @@ const Header = () => {
                         <span>Signed in as: <a href="#">Random User</a></span>
                     </Navbar.Text>}
                 </Navbar.Collapse>
-
             </Navbar>
         </>
     );
