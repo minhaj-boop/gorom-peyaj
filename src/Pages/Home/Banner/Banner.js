@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.css';
 import bannerImg from '../../../images/bannerbackground.png';
-import { Button } from 'react-bootstrap';
+import { Button } from '@mui/material';
 
 
 const Banner = () => {
