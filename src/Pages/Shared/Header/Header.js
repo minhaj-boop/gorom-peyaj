@@ -8,7 +8,7 @@ import './Header.css';
 const Header = () => {
     return (
         <>
-            <Navbar sticky="top" variant="light" collapseOnSelect expand="lg">
+            <Navbar className="onion-bg" sticky="top" variant="light" collapseOnSelect expand="lg">
                 <Navbar.Brand className="mar-10" href="#home"><img
                     src={logo}
                     width="160"
