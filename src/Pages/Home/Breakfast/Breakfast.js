@@ -1,7 +1,8 @@
-import { Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import React from 'react';
 
-const Breakfast = ({ id, title, highlights, description, price, img }) => {
+const Breakfast = ({ breakfast }) => {
+    const { id, title, highlights, price, img } = breakfast;
     return (
         <>
             <Grid item xs={2} sm={4} md={4}>
@@ -9,19 +10,36 @@ const Breakfast = ({ id, title, highlights, description, price, img }) => {
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            height="140"
-                            image="/static/images/cards/contemplative-reptile.jpg"
-                            alt="green iguana"
+                            width="100%"
+                            image={img}
+                            alt=""
                         />
-                        <CardContent>
+                        <Box
+                            sx={{
+                                mx: 'auto',
+                                p: 1,
+                                textAlign: 'center',
+                            }}
+                        >
+                            <CardContent >
+                                <Typography gutterBottom variant="h5" component="div">
+                                    {title}
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                    {highlights}
+                                </Typography>
+                            </CardContent>
+                        </Box>
+                        <Box
+                            sx={{
+                                mx: 'auto',
+                                textAlign: 'center',
+                            }}
+                        >
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                {price}
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
-                            </Typography>
-                        </CardContent>
+                        </Box>
                     </CardActionArea>
                 </Card>
             </Grid>
