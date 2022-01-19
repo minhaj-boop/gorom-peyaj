@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../../images/logo2.png';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -23,11 +23,15 @@ const Header = () => {
                         aria-label="Search"
                     />
                 </Form> */}
+
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end margin-10">
-                    <Nav.Link className="color" as={Link} to="/home#home"><ShoppingCartIcon /></Nav.Link>
-                    <Nav.Link className="color" as={Link} to="/home#services">Login</Nav.Link>
-                    <Nav.Link className="color" as={Link} to="/home#experts">Sign up</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/breakfasts">Breakfast</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/lunches">Lunch</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/dinners">Dinner</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/login">Login</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/signup">Sign up</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/checkout"><ShoppingCartIcon /></Nav.Link>
                     {/* {user?.email ?
                             <Button onClick={logOut} variant="light">Logout</Button> :
                             <Nav.Link as={Link} to="/login">Login</Nav.Link>

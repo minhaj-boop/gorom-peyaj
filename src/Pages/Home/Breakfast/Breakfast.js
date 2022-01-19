@@ -17,7 +17,6 @@ const Breakfast = ({ breakfast }) => {
                         <Box
                             sx={{
                                 mx: 'auto',
-                                p: 1,
                                 textAlign: 'center',
                             }}
                         >
@@ -28,17 +27,10 @@ const Breakfast = ({ breakfast }) => {
                                 <Typography variant="body2" color="text.secondary">
                                     {highlights}
                                 </Typography>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    ${price}
+                                </Typography>
                             </CardContent>
-                        </Box>
-                        <Box
-                            sx={{
-                                mx: 'auto',
-                                textAlign: 'center',
-                            }}
-                        >
-                            <Typography gutterBottom variant="h5" component="div">
-                                {price}
-                            </Typography>
                         </Box>
                     </CardActionArea>
                 </Card>

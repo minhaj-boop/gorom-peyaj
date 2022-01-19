@@ -22,3 +22,8 @@
 .onion-bg {
     background-color: white;
 }
+.onion-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
