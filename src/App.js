@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Banner from './Pages/Home/Banner/Banner';
 import Breakfasts from './Pages/Home/Breakfasts/Breakfasts';
 import Dinners from './Pages/Home/Dinners/Dinners';
 import Home from './Pages/Home/Home/Home';
@@ -8,6 +7,7 @@ import Login from './Pages/Login/Login';
 import PageNotFound from './Pages/NotFound/PageNotFound';
 import Header from './Pages/Shared/Header/Header';
 import Signup from './Pages/Signup/Signup';
+import Checkout from './Pages/Checkout/Checkout';
 
 function App() {
   return (
@@ -18,6 +18,10 @@ function App() {
         <Switch>
 
           <Route exact path="/">
+            <Home></Home>
+          </Route>
+
+          <Route exact path="/home">
             <Home></Home>
           </Route>
 
@@ -39,6 +43,10 @@ function App() {
 
           <Route path="/signup">
             <Signup></Signup>
+          </Route>
+
+          <Route path="/checkout">
+            <Checkout></Checkout>
           </Route>
 
           <Route path="*">
