@@ -26,11 +26,11 @@ const Header = () => {
 
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end margin-10">
-                    <Nav.Link className="color" as={Link} to="/breakfasts">Breakfast</Nav.Link>
-                    <Nav.Link className="color" as={Link} to="/lunches">Lunch</Nav.Link>
-                    <Nav.Link className="color" as={Link} to="/dinners">Dinner</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/breakfast">Breakfast</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/lunch">Lunch</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/dinner">Dinner</Nav.Link>
                     <Nav.Link className="color" as={Link} to="/login">Login</Nav.Link>
-                    <Nav.Link className="color" as={Link} to="/signup">Sign up</Nav.Link>
+                    <Nav.Link className="color" as={Link} to="/signup">Signup</Nav.Link>
                     <Nav.Link className="color" as={Link} to="/checkout"><ShoppingCartIcon /></Nav.Link>
                     {/* {user?.email ?
                             <Button onClick={logOut} variant="light">Logout</Button> :

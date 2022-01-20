@@ -13,6 +13,7 @@ function App() {
   return (
     <div >
       <Router>
+
         <Header></Header>
 
         <Switch>
@@ -21,19 +22,19 @@ function App() {
             <Home></Home>
           </Route>
 
-          <Route exact path="/home">
+          <Route path="/home">
             <Home></Home>
           </Route>
 
-          <Route path="/breakfasts">
+          <Route path="/breakfast">
             <Breakfasts></Breakfasts>
           </Route>
 
-          <Route path="/lunches">
+          <Route path="/lunch">
             <Lunches></Lunches>
           </Route>
 
-          <Route path="/dinners">
+          <Route path="/dinner">
             <Dinners></Dinners>
           </Route>
 
