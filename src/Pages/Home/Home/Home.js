@@ -16,7 +16,7 @@ const Home = () => {
             <div className="gp-center">
                 <Navbar.Brand className="gp-color" href="#">All Items</Navbar.Brand>
             </div>
-            <Navbar bg="light" variant="light">
+            {/* <Navbar bg="light" variant="light">
                 <Container>
                     <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                     <Nav className="me-auto">
@@ -25,11 +25,12 @@ const Home = () => {
                         <Nav.Link as={Link} to={`${url}/dinner`}>Dinner</Nav.Link>
                     </Nav>
                 </Container>
-            </Navbar>
+            </Navbar> */}
             <Breakfasts></Breakfasts>
             <Lunches></Lunches>
             <Dinners></Dinners>
-            {/* <Switch>
+            {/* 
+            <Switch>
                 <Route exact path={path}>
                     <Breakfasts></Breakfasts>
                 </Route>

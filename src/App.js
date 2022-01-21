@@ -46,7 +46,7 @@ function App() {
             <Signup></Signup>
           </Route>
 
-          <Route path="/checkout">
+          <Route path="/checkout/:itemId">
             <Checkout></Checkout>
           </Route>
 

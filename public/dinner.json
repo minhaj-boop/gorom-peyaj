@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "dn-1",
         "title": "Salmon with Grape Fruit and Lenti Salad",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -8,7 +8,7 @@
         "img": "https://i.ibb.co/qJBtgV7/dinner1.png"
     },
     {
-        "id": 2,
+        "id": "dn-2",
         "title": "Lemony Salmon Piccata",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -16,7 +16,7 @@
         "img": "https://i.ibb.co/3ykKwhH/dinner2.png"
     },
     {
-        "id": 3,
+        "id": "dn-3",
         "title": "Beef Tenderloin with Quinoa Pilaf",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -24,7 +24,7 @@
         "img": "https://i.ibb.co/GTy2RfR/dinner3.png"
     },
     {
-        "id": 4,
+        "id": "dn-4",
         "title": "French fies with Cheese",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -32,7 +32,7 @@
         "img": "https://i.ibb.co/rZdqcP0/dinner4.png"
     },
     {
-        "id": 5,
+        "id": "dn-5",
         "title": "Garlic Butter Baked Salmon",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -40,7 +40,7 @@
         "img": "https://i.ibb.co/hfNzw7Y/dinner5.png"
     },
     {
-        "id": 6,
+        "id": "dn-6",
         "title": "Baked Chicken",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",

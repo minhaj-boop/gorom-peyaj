@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom';
 import logo from '../../../images/logo2.png';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import './Header.css';
+import { useParams } from 'react-router-dom';
 
 const Header = () => {
+    const { itemId } = useParams();
     return (
         <>
             <Navbar className="onion-bg" sticky="top" variant="light" collapseOnSelect expand="lg">
@@ -31,7 +33,7 @@ const Header = () => {
                     <Nav.Link className="color" as={Link} to="/dinner">Dinner</Nav.Link>
                     <Nav.Link className="color" as={Link} to="/login">Login</Nav.Link>
                     <Nav.Link className="color" as={Link} to="/signup">Signup</Nav.Link>
-                    <Nav.Link className="color" as={Link} to="/checkout"><ShoppingCartIcon /></Nav.Link>
+                    <Nav.Link className="color" as={Link} to={`/checkout/${itemId}`}><ShoppingCartIcon /></Nav.Link>
                     {/* {user?.email ?
                             <Button onClick={logOut} variant="light">Logout</Button> :
                             <Nav.Link as={Link} to="/login">Login</Nav.Link>

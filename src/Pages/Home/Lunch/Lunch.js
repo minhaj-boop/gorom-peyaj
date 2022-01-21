@@ -1,11 +1,13 @@
 import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Lunch.css'
 
 const Lunch = ({ lunch }) => {
     const { id, title, highlights, price, img } = lunch;
     return (
         <>
-            <Grid item xs={2} sm={4} md={4}>
+            <Grid className="gp-text-decoration" as={Link} to={`/checkout/${id}`} item xs={2} sm={4} md={4}>
                 <Card sx={{ maxWidth: 345 }}>
                     <CardActionArea>
                         <CardMedia

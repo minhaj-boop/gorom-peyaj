@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "bf-1",
         "title": "Balen and Cream Cheese",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -8,7 +8,7 @@
         "img": "https://i.ibb.co/D4vTvVQ/breakfast1.png"
     },
     {
-        "id": 2,
+        "id": "bf-2",
         "title": "Breakfast Swandwich",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -16,7 +16,7 @@
         "img": "https://i.ibb.co/64h7vdk/breakfast2.png"
     },
     {
-        "id": 3,
+        "id": "bf-3",
         "title": "Baked Chicken",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -24,7 +24,7 @@
         "img": "https://i.ibb.co/98X7Pxp/breakfast3.png"
     },
     {
-        "id": 4,
+        "id": "bf-4",
         "title": "Eggs Benedict",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -32,7 +32,7 @@
         "img": "https://i.ibb.co/XkTDJVz/breakfast4.png"
     },
     {
-        "id": 5,
+        "id": "bf-5",
         "title": "Toast Croissant Fried Egg",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
@@ -40,7 +40,7 @@
         "img": "https://i.ibb.co/cQfCZjS/breakfast5.png"
     },
     {
-        "id": 6,
+        "id": "bf-6",
         "title": "Full Breakfast Fried Egg Toast Brunch",
         "highlights": "You do really care? check description",
         "description": "Thank you for visiting here. Contact me if you want to know the recepie and the procedures. I will provide you a sample dish along with other necessities. Actually no, I just wanted a long description. You dont get free food in restaurants.",
